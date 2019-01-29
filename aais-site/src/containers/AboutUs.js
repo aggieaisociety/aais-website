@@ -3,6 +3,7 @@ import './AboutUs.css';
 import President from '../images/President.jpeg';
 import VP from '../images/VP.jpeg';
 import Treasurer from '../images/Treasurer.jpeg';
+import Webmaster from '../images/Webmaster.jpeg';
 
 class AboutUs extends Component {
     render() {
@@ -10,12 +11,12 @@ class AboutUs extends Component {
         <div className="AboutUs">
             <div className="Intro">
                 <h1 className="Intro-welcome">What we do</h1>
-                <p className="Intro-mission"> 
+                <p className="Intro-mission">
                 Our mission is to inspire students to further learn and explore the field of Artificial Intelligence.
                 </p>
                 <p className="Intro-whatwedo">
-                We organize lectures, panels, and workshops on the latest AI technologies. 
-                We cover current events in areas such as 
+                We organize lectures, panels, and workshops on the latest AI technologies.
+                We cover current events in areas such as
                 Natural Language Processing, Computer Vision, and Self Driving Cars.
                 </p>
             </div>
@@ -36,10 +37,15 @@ class AboutUs extends Component {
                     <h2 className="Name">Yamen Al Masalmeh</h2>
                     <h3 className="Title">Treasurer</h3>
                 </div>
+                <div className="Officer">
+                    <img src={Webmaster} alt={"Webmaster"}></img>
+                    <h2 className="Name">Jieun Lee</h2>
+                    <h3 className="Title">Webmaster</h3>
+                </div>
             </div>
         </div>
       );
     }
   }
-  
+
   export default AboutUs;
