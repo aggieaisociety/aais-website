@@ -58,31 +58,31 @@ const aaisEvents = [
       allDay: false,
       startDate: new Date('February 08, 2019 17:00:00'),
       endDate: new Date('February 08, 2019 18:00:00'),
-      title: 'TBD HRBB 113',
+      title: 'Neural Networks HRBB 113',
     },
     {
         allDay: false,
         startDate: new Date('February 22, 2019 17:00:00'),
         endDate: new Date('February 22, 2019 18:00:00'),
-        title: 'TBD HRBB 113',
+        title: 'Computer Vision/ML HRBB 113',
     },
     {
         allDay: false,
         startDate: new Date('March 22, 2019 17:00:00'),
         endDate: new Date('March 22, 2019 18:00:00'),
-        title: 'TensorFlow Workshop HRBB 113',
+        title: 'TensorFlow HRBB 113',
     },
     {
         allDay: false,
         startDate: new Date('April 12, 2019 17:00:00'),
         endDate: new Date('April 12, 2019 18:00:00'),
-        title: 'Dr. Hu HRBB 113',
+        title: 'NLP/Data Mining HRBB 113',
     },
     {
         allDay: false,
         startDate: new Date('April 26, 2019 17:00:00'),
         endDate: new Date('April 26, 2019 18:00:00'),
-        title: 'Yamen and Ryan HRBB 113',
+        title: 'Game AI HRBB 113',
     }
 
 
